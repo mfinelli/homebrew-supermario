@@ -7,6 +7,13 @@ class Recueil < Formula
   license "AGPL-3.0-or-later"
   head "https://github.com/mfinelli/recueil.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/mfinelli/homebrew-supermario/releases/download/recueil-1.0.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "626b0723d18b26b1c5bd6dc57d075c31654d03df276196976ae2d7133adc4597"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "81fe824bcd7d00a7f74ccd7ab7f7624ce602671ae8b4320db7ab17761c4fc2e5"
+    sha256 cellar: :any,                 x86_64_linux:  "bb0bbd8ffd1482c37651024f311c3e01263cd7786d9b8708dfea782426393773"
+  end
+
   depends_on "go" => :build
   depends_on "jq" => :build
   depends_on "node" => :build
