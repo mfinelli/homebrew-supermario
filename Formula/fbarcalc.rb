@@ -5,6 +5,12 @@ class Fbarcalc < Formula
   sha256 "33d0f0ce1ff62581b7e81c895459e66a1f25ac12b3fa30e75b1b2efcd0b320c7"
   license "GPL-3.0-or-later"
 
+  bottle do
+    root_url "https://github.com/mfinelli/homebrew-supermario/releases/download/fbarcalc-1.0.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "c3f28694e5fda59582fbeaa6514007c203c62bccd39ef9e41d145159444be44f"
+    sha256 cellar: :any,                 x86_64_linux: "9a9cd06bfe363545d23f97f0ffba1772ec2a18b4b7b515e57a8a552e73724e7e"
+  end
+
   depends_on "rust" => :build
 
   deny_network_access!
