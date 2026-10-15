@@ -1,8 +1,8 @@
 class Fbarcalc < Formula
   desc "Calculate the maximum account value"
   homepage "https://github.com/mfinelli/fbarcalc"
-  url "https://github.com/mfinelli/fbarcalc/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "33d0f0ce1ff62581b7e81c895459e66a1f25ac12b3fa30e75b1b2efcd0b320c7"
+  url "https://github.com/mfinelli/fbarcalc/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "19881491d5812da31e9a88733a384d1546bfda3aa61b6160d72a14dd22926bef"
   license "GPL-3.0-or-later"
 
   bottle do
