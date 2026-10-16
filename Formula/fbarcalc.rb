@@ -6,10 +6,10 @@ class Fbarcalc < Formula
   license "GPL-3.0-or-later"
 
   bottle do
-    root_url "https://github.com/mfinelli/homebrew-supermario/releases/download/fbarcalc-1.0.2"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "74665fb492a6e13b267e3677f3eba275b089712a334d291439b742c71a461eea"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "57b6489ed4d1cecc5e8c0dbbb202902320be7ebf915c99e1478be4f083445bd0"
-    sha256 cellar: :any,                 x86_64_linux:  "2a4562b153ce78920150c9951fa78041ffa26ace938495a0af3b713157933bcf"
+    root_url "https://github.com/mfinelli/homebrew-supermario/releases/download/fbarcalc-1.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "a7043cee31639b3894ea69392486d147939139508b576ec9ca5d752d8b5b391d"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "8e5e5b9f4f910e67aa63df02d903919b4f48659351ac4d436f6e33735ce59faf"
+    sha256 cellar: :any,                 x86_64_linux:  "0e81d4e9f23eb3d59cd3163bdd9220599d6a38b7393ec244f38a2b25df38b29b"
   end
 
   depends_on "rust" => :build
